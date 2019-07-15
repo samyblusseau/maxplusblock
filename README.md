@@ -10,4 +10,4 @@ Provided Tensorflow and Keras are installed, the code should be run by the comma
 python testMaxPlus.py
 
 and needs the file maxPlusDense.py to work.
-The script testMaxPlus.py defines a morphological neural network composed of an input layer, a linear layer and a max-plus (or dilation layer), trians it on the Mnist or fashion-mnist dataset, then removes the unused filters from the linear layer and finally tests the reduced network on the test set.
+The script testMaxPlus.py defines a morphological neural network composed of an input layer, a linear layer and a max-plus (or dilation layer), trains it on the Mnist or fashion-mnist dataset, then removes the unused filters from the linear layer and finally tests the reduced network on the test set.
